@@ -105,3 +105,40 @@ td {
 .githubcoderank{
     max-width: 100%;
 }
+
+
+.social-card-body{
+    width: 100%;
+    height: 150px;
+
+    text-align: center;
+
+    border: solid 1px gray;
+    background-color: lightgray;
+    margin-bottom: 10px;
+
+}
+
+.social-card-icon{
+    font-size: 60px;
+   
+}
+
+.follow-button {
+    margin-top: 7px;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #ffffff;
+    background-image: linear-gradient(#6795fd 0%, #67ceff 100%);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    border-bottom: solid 3px #5e7fca;
+  }
+  
+  .follow-button:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+  }
