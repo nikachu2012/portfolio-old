@@ -1,0 +1,2 @@
+const url = ""
+document.getElementById('menu').innerHTML = '[ <a href="' + url + 'index.html">TOP</a> / <a href="nikachu2012.github.io">Blog</a> / <a href="' + url + 'index.html#profile">Profile</a> / <a href="' + url + 'works/index.html">Works</a> / <a href="' + url + 'usepc/index.html">PC</a> / <a href="' + url + 'usephone/index.html">Smartphone</a> ]';
