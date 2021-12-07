@@ -89,10 +89,23 @@ h2.syoukaititle{
     border-top-style: solid;
     border-top-color: #64DD17;
 }
+
+table{
+    width: 100%;
+}
 table,
 td {
     border-collapse: collapse;
-    border: 1px solid #000;
+    border: 1px dashed gray;
+
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+
+}
+td{
+    padding-bottom: 3px;
+    padding-right: 3px;
 }
 
 .social-card{
