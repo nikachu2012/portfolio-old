@@ -74,6 +74,10 @@ h2.syoukaititle{
     border-bottom: 1px solid black;
 }
 
+h3.syoukaititle{
+    border-bottom: 1px solid black;
+}
+
 .page-footer{
     width: auto;
 
@@ -90,9 +94,6 @@ h2.syoukaititle{
     border-top-color: #64DD17;
 }
 
-table{
-    width: 100%;
-}
 table,
 td {
     border-collapse: collapse;
