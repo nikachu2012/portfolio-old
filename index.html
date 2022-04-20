@@ -1,139 +1,70 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="assets/style-max1100.css" media="screen and (max-width:1100px)">
-    <link rel="stylesheet" href="assets/style-min1100.css" media="screen and (min-width:1100px)">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Nikachu's portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.13.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-    <header class="page-header">
-        <img class="image-circle" src="assets/image/nikachu.png"><br>
-        <div style="margin-top: 10px;"><span style="font-size: xx-large;">My name is Nikachu.</span></div>
-        <br>
-        <div style="margin-bottom: 10px;" id="menu"></div>
-        
-    </header>
-    <main class="contents">
-        <div class="aisatu" id="aisatuText">こんにちは。ニカチュウと申します！</div>
-        <h2 class="syoukaititle" id="profile">Profile</h2>
-        <table>
-            <tbody>
-                <tr>
-                    <td style="min-width: 120px;">名前</td>
-                    <td>ニカチュウ</td>
-                </tr>
-            </tbody><tbody>
-                <tr>
-                    <td>国籍</td>
-                    <td>日本人</td>
-                </tr>
-            </tbody><tbody>
-                <tr>
-                    <td>居住地</td>
-                    <td>静岡県</td>
-                </tr>
-            </tbody><tbody>
-                <tr>
-                    <td>年齢</td>
-                    <td>14歳</td>
-                </tr>
-            </tbody><tbody>
-                <tr>
-                    <td>誕生日</td>
-                    <td>2007年09月18日</td>
-                </tr>
-            </tbody><tbody>
-                <tr>
-                    <td>好きな食べ物&飲み物</td>
-                    <td>ハンバーガー、ポテト、ミルクティー</td>
-                </tr>
-            </tbody><tbody>
-                <tr>
-                    <td>持ってるPC</td>
-                    <td><a href="usepc/index.html">→こちらをチェック</a></td>
-                </tr>
-            </tbody><tbody>
-                <tr>
-                    <td>持ってるスマホ</td>
-                    <td><a href="usephone/index.html">→こちらをチェック</a></td>
-                </tr>
-            </tbody><tbody>
-                <tr>
-                    <td>趣味</td>
-                    <td>パソコン全般, プログラミング, Apex Legends,　Minecraft</td>
-                </tr>
-            </tbody><tbody>
-                <tr>
-                    <td>自己紹介文</td>
-                    <td>
-                        ニカチュウと申します！よろしくお願いします！趣味はパソコンで3歳のころからパソコンをやっています。<br>
-                        まあそのせいで目がめっちゃ悪いんですけどね。
-                    </td>
-                    
-                </tr>
-            </tbody>
-        </table>
-
-        <h2 class="syoukaititle">GitHub</h2>
-        <a href="https://github.com/nikachu2012"><img src="https://img.shields.io/github/followers/nikachu2012?label=Follow%20Me%21&style=social" alt="Follow Me! @nikachu2012"></a><br>
-        <img src='https://github-readme-stats.vercel.app/api?username=nikachu2012&count_private=true&theme=default' class="githubstatus">
-        <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=nikachu2012&count_private=true&theme=default' class="githubcoderank">
-
-        <h2 class="syoukaititle" id="profile">Social</h2>
-        <div class="social-card">
-            <div class="social-card-body">
-                <div class="social-card-icon"><i class="fab fa-twitter" style=" color: #1DA1F2; "></i></div>
-                <div>Twitter</div>
-                <a href="https://twitter.com/nikachu2012" class="follow-button" style="color: white;">Follow Me!</a>
+    <div class="drawer">
+        <input id="my-drawer-3" type="checkbox" class="drawer-toggle">
+        <div class="drawer-content flex flex-col">
+            <!-- Navbar -->
+            <div class="w-full navbar bg-base-300">
+                <div class="flex-none lg:hidden">
+                    <label for="my-drawer-3" class="btn btn-square btn-ghost">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            class="inline-block w-6 h-6 stroke-current">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </label>
+                </div>
+                <div class="flex-1">
+                    <a class="btn btn-ghost normal-case text-xl" href="https://portfolio.nikachu.net"><img src="assets/nikachu.png" alt="nikachu"
+                            style="width: 30px; margin-right: 4px;">Nikachu's portfolio</a>
+                </div>
+                <div class="flex-none hidden lg:block">
+                    <ul class="menu menu-horizontal p-0" id="desktop-navbar">
+                    </ul>
+                </div>
             </div>
-
-            <div class="social-card-body">
-                <div class="social-card-icon"><i class="fab fa-github" style="color: #0D1117; background-color: #ffffff; border-radius: 50%;"></i></div>
-                <div>GitHub</div>
-                <a href="https://github.com/nikachu2012" class="follow-button" style="color: white;">Follow Me!</a>
+            <!-- Page content here -->
+            <div class="hero bg-base-200" style="height: calc(100vh - 48px);">
+                <div class="hero-content text-center">
+                    <div class="max-w-md">
+                        <div class="avatar">
+                            <div class="w-24 rounded-full" style="margin-bottom: 20px;">
+                              <img src="./assets/nikachu-full.webp" />
+                            </div>
+                        </div>                          
+                        <h1 class="text-5xl font-bold">Hello there👋<br>My name is nikachu.</h1>
+                        <p class="py-6">こんにちは。ニカチュウと申します。普段はWeb系言語をいろいろ書いています。まあ遊んでるだけですけどね。</p>
+                        <a href="https://portfolio.nikachu.net/profile"><button class="btn btn-primary">詳しいプロフィールを見る</button></a>
+                    </div>
+                </div>
             </div>
-
-            <div class="social-card-body">
-                <div class="social-card-icon"><i class="fab fa-reddit" style="color: #FF5700; background-color: #ffffff; border-radius: 50%;"></i></div>
-                <div>Reddit</div>
-                <a href="https://www.reddit.com/user/nikachu2012" class="follow-button" style="color: white;">Follow Me!</a>
-            </div>
-
-            
         </div>
-        
-        <div class="social-card">
-            <div class="social-card-body">
-                <div class="social-card-icon"><i class="fab fa-instagram"></i></div>
-                <div>Instagram</div>
-                <a href="https://www.instagram.com/nikachu2012/" class="follow-button" style="color: white;">Follow Me!</a>
-            </div>
+        <div class="drawer-side">
+            <label for="my-drawer-3" class="drawer-overlay"></label>
+            <ul class="menu p-4 overflow-y-auto w-60 md:w-80 bg-base-100" id="mobile-sidebar">
+                <!-- Sidebar content here -->
 
-            <div class="social-card-body">
-                <div class="social-card-icon"><i class="fab fa-steam" style="color: black; background-color: #ffffff; border-radius: 50%;"></i></div>
-                <div>Steam</div>
-                <a href="https://steamcommunity.com/id/nikachu2012/" class="follow-button" style="color: white;">Follow Me!</a>
-            </div>
-
-            <div class="social-card-body">
-                <div class="social-card-icon"><i class="fab fa-youtube" style="color: red;"></i></div>
-                <div>YouTube</div>
-                <a href="https://www.youtube.com/channel/UCFpf0NiVpZnm6gtpQg7VE6g" class="follow-button" style="color: white;">Subscribe Me!</a>
-            </div>
+            </ul>
 
         </div>
-    </main>
+    </div>
 
-    <footer class="page-footer" id="page-footer">
-        Copyright © 2021 Nikachu All rights reserved.
-    </footer>
+    <script src="assets/sidebar.js"></script>
 
-    <script src="assets/menuScript.js"></script>
 </body>
+
 </html>

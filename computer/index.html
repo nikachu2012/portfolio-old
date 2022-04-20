@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🖥️Computer - Nikachu's portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.13.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="drawer">
+        <input id="my-drawer-3" type="checkbox" class="drawer-toggle">
+        <div class="drawer-content flex flex-col">
+            <!-- Navbar -->
+            <div class="w-full navbar bg-base-300">
+                <div class="flex-none lg:hidden">
+                    <label for="my-drawer-3" class="btn btn-square btn-ghost">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            class="inline-block w-6 h-6 stroke-current">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </label>
+                </div>
+                <div class="flex-1">
+                    <a class="btn btn-ghost normal-case text-xl" href="https://portfolio.nikachu.net"><img src="../assets/nikachu.png" alt="nikachu"
+                            style="width: 30px; margin-right: 4px;">Nikachu's portfolio</a>
+                </div>
+                <div class="flex-none hidden lg:block">
+                    <ul class="menu menu-horizontal p-0" id="desktop-navbar">
+                    </ul>
+                </div>
+            </div>
+            <!-- Page content here -->
+            <div class="md:container md:mx-auto">
+                <!-- ... -->
+
+                <div class="card lg:card-side bg-base-100 shadow-xl" style="margin-top: 10px;">
+                    <figure><img src="../assets/new-pc.webp" alt="メインPC" style="height: 300px;"></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">メインPC</h2>
+                        <p>2022年3月に自作したPCです。まあグラボ高騰の関係でグラボはつけてません。その代わりCPUをめちゃくちゃ強くしました。スペックは下です。</p>
+                    </div>
+                </div>
+
+
+                <table class="table w-full" style="margin-top: 10px;">
+                    <thead>
+                        <tr>
+                            <th>key</th>
+                            <th>value</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>CPU</td>
+                            <td>Intel Core-i7 12700</td>
+                        </tr>
+                        <tr>
+                            <td>GPU</td>
+                            <td>なんすか？GPUって？（オンボード）
+                                <blockquote><b>RTX3060ぐらいはほしい</b></blockquote>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>メモリ</td>
+                            <td>DDR4-3200 16GB2枚
+                                <blockquote><b>16x4で64GBにしたいところ</b></blockquote>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>ストレージ</td>
+                            <td>SATA SSD 1TB</td>
+                        </tr>
+                        <tr>
+                            <td>マザボ</td>
+                            <td>B660 Pro RS
+                                <blockquote><b>メモリ4枚+ATX+12世代で一番安い物を探したらこれになりました。</b></blockquote>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>OS</td>
+                            <td>Windows 10
+                                <blockquote><b>Windows11は使ったことありますが使う気ないです。</b></blockquote>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+
+                <div class="card lg:card-side bg-base-100 shadow-xl" style="margin-top: 10px;">
+                    <figure><img src="../assets/mbp.webp" alt="MBP" style="height: 300px;"></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">MacBook Pro (サブ、持ち運びPC)</h2>
+                        <p>2021年2月に購入しました。持ち運び時などで利用しています。反射がやばくて撮影が難しかったです。</p>
+                    </div>
+                </div>
+
+                <table class="table w-full" style="margin-top: 10px;">
+                    <thead>
+                        <tr>
+                            <td>key</td>
+                            <td>value</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="min-width: 120px;">CPU</td>
+                            <td>Apple M1</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>GPU</td>
+                            <td>Apple M1</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>メモリー</td>
+                            <td>16GBユニファイドメモリ</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>SSD</td>
+                            <td>512GB</td>
+                        </tr>
+                    
+                        <tr>
+                            <td>OS</td>
+                            <td>macOS Monterey
+                                <blockquote><b>一応最新版にしてます。</b></blockquote>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="../assets/sidebar.js"></script>
+
+</body>
+
+</html>
