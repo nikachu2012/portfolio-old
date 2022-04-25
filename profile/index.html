@@ -63,7 +63,7 @@
                         </tr>
                         <tr>
                             <td>年齢</td>
-                            <td>14歳</td>
+                            <td><span id="age"></span></td>
                         </tr>
                         <tr>
                             <td>誕生日</td>
@@ -113,6 +113,37 @@
 
         </div>
     </div>
+
+    <script>
+        const age = document.getElementById('age')
+
+        function getUserAge(year, month, day) {
+            //誕生日を一旦 Date クラスに変換する
+            var birthdayDate = new Date(year, month - 1, day);
+
+            //Date クラスは不正の値で初期化したとき、初期化に利用した数値と同じ数値にならないので、そこで正しい数値であるかを判定する
+            if (year != birthdayDate.getFullYear() ||
+                (month - 1) != birthdayDate.getMonth() ||
+                day != birthdayDate.getDate()) {
+                return null;
+            }
+
+            //今日の日付けを取得する
+            var todayDate = new Date();
+
+            //誕生日を計算する
+            var userAge = todayDate.getFullYear() - birthdayDate.getFullYear();
+
+            //誕生日が当年込みの計算のため、もし今年の誕生日を迎えていない場合は1歳年齢を減らす
+            var currentYearDate = new Date(todayDate.getFullYear(), birthdayDate.getMonth(), birthdayDate.getDate());
+            if (currentYearDate > todayDate) {
+                userAge = (userAge - 1);
+            }
+
+            return userAge;
+        }
+        age.innerHTML = getUserAge(2007,9,18) + '歳';
+    </script>
 
     <script src="../assets/sidebar.js"></script>
 
