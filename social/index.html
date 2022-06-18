@@ -71,7 +71,7 @@
 
                     <div class="card w-1/3 bg-base-100 shadow-xl">
                         <figure class="px-10 pt-10">
-                            <img src="../assets/github.webp" alt="Shoes" class="rounded-xl" style="width: 200px;"/>
+                            <img src="../assets/github-white.webp" alt="Shoes" class="rounded-xl" style="width: 200px;" id="github"/>
                         </figure>
                         <div class="card-body items-center text-center">
                             <h2 class="card-title">GitHub</h2>
@@ -142,6 +142,17 @@
     </div>
 
     <script src="../assets/sidebar.js"></script>
+
+    <script>
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches == true) {
+
+            //dark mode
+            document.getElementById('github').src = "../assets/github-white.webp"
+        }
+        else{
+            document.getElementById('github').src = "../assets/github-black.webp"
+        }
+    </script>
 
 </body>
 
