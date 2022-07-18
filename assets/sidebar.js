@@ -1,6 +1,6 @@
 (() => {
     const sidebar = `
-        <li><a href="https://nikachu2012.github.io/">📝Blog</a></li>
+        <li><a href="https://blog.nikachu.net/">📝Blog</a></li>
         <li><a href="https://portfolio.nikachu.net/profile">👤Profile</a></li>
         <li><a href="https://portfolio.nikachu.net/history">📜History</a></li>
         <li><a href="https://portfolio.nikachu.net/works">👨‍💻Works</a></li>
