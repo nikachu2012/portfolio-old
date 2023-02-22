@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import MenuBar from './components/MenuBar'
-import img_nikachu from './assets/nikachu.png'
+import img_nikachu from './assets/nikachu.webp'
+import img_nikachu_noback from './assets/nikachu_noback.webp'
 import { Link } from 'react-router-dom'
 
 function Top() {
@@ -21,7 +22,7 @@ function Top() {
               </label>
             </div>
 
-            <Link to={'/'}><img className="w-10 ml-2 mr-1 rounded-full" src={img_nikachu} /></Link>
+            <Link to={'/'}><img className="w-10 ml-2 rounded-full" src={img_nikachu_noback} /></Link>
             <div className="flex-1 px-2 mr-2 font-bold text-xl">
               <Link to={'/'}>nikachu2012</Link>
             </div>
