@@ -43,7 +43,7 @@ function Top() {
 
                 <h1 className="text-5xl font-bold">Hello there👋</h1>
                 <h2 className='text-2xl font-bold'>My name is <a className="underline" href=''>nikachu</a>.</h2>
-                <p className="py-6">WebApp Creator</p>
+                
               </div>
             </div>
           </div>
