@@ -9,7 +9,7 @@ import './timeline.css'
 function Timeline() {
 
     useEffect(() => {
-        document.title = `📅Timeline - Nikachu's Portfolio`;
+        document.title = `📅Timeline - Nikachu's portfolio`;
     });
 
     return (

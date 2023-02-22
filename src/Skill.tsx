@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function Skill() {
 
     useEffect(() => {
-        document.title = `🎯Skill - Nikachu's Portfolio`;
+        document.title = `🎯Skill - Nikachu's portfolio`;
     });
 
     return (

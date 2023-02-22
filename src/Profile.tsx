@@ -9,7 +9,7 @@ function getUserAge(e: number, t: number, n: number) { var o, i, a, s = new Date
 function Profile() {
 
     useEffect(() => {
-        document.title = `👤Profile - Nikachu's Portfolio`;
+        document.title = `👤Profile - Nikachu's portfolio`;
     });
 
     return (

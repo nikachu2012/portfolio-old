@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function Top() {
 
   useEffect(() => {
-    document.title = `Nikachu's Portfolio`;
+    document.title = `Nikachu's portfolio`;
   });
 
   return (
