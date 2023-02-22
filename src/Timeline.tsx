@@ -37,52 +37,54 @@ function Timeline() {
                         </div>
                     </div>
 
-                    <div className="timeline mb-[10px]">
-                        <div className="container">
-                            <div className="wrapper">
-                                <ul className="sessions">
-                                    <li>
-                                        <div className="time">2007年</div>
-                                        <p>静岡県に生まれる</p>
-                                    </li>
-                                    <li>
-                                        <div className="time">2011年ごろ</div>
-                                        <p>パソコンをもらう</p>
-                                        <small>ちなみに当時はMr.PCという本についてたCDの中に入っていたフリーソフトで遊んでました。当時ローマ字入力なんてできないのでかな入力でした。</small>
-                                    </li>
-                                    <li>
-                                        <div className="time">2013年</div>
-                                        <p>小学校入学</p>
-                                    </li>
-                                    <li>
-                                        <div className="time">2015年</div>
-                                        <p>プログラミングロボット教室へ通い始める</p>
-                                        <small>Javaが学べると言われたので入ったのですが、方針変更等でやれたのはPythonだったんですけどね。このことは次にも影響します。</small>
-                                    </li>
-                                    <li>
-                                        <div className="time">2019年</div>
-                                        <p>WRO2019 International Finalに出場 <a href="https://www.wroj.org/"><button className="btn-primary btn-xs">WRO Japan公式サイト</button></a></p>
-                                        <small>静岡県予選では<strong>１チーム中</strong>１位、全国大会では３位を収めることができ、世界大会に出ることができました。</small>
-                                    </li>
-                                    <li>
-                                        <div className="time">2020年</div>
-                                        <p>中学校入学</p>
-                                        <small>最初からコロナ禍ですよ。小６の社会の最後なんてテスト終わった人から教科書を自分で読んでとか言うゴリ押しになってました。<br /><strong>ちなみに私はテストが終わらなかったので読んでません。</strong></small>
-                                    </li>
-                                    <li>
-                                        <div className="time">2021年</div>
-                                        <p>Realtime-clockを始めとするJavaScriptを使ったソフトの制作</p>
-                                        <small>
-                                            小5ぐらいからHTMLとCSSはかけたのですが、JavaScriptをいろいろ書くようになったのはこの年が最初です。<br />
-                                            作ったものは<a href="https://github.com/nikachu2012" target={"_blank"} className="underline">GitHub</a>で公開しています。
-                                        </small>
-                                    </li>
-                                    <li>
-                                        <div className="time">2022年11月</div>
-                                        <p>ジュニアプロコンin静岡にて最優秀賞受賞</p>
-                                        <small>ビジュアルプログラミング言語からテキスト系の言語にステップアップしたい人向けの言語である<a className="underline" href="https://emojicode-ide.nikachu.net/" target={"_blank"}>EmojiCode</a>を制作しました。</small>
-                                    </li>
-                                </ul>
+                    <div className="w-full flex justify-center">
+                        <div className="timeline mb-[10px]">
+                            <div className="container">
+                                <div className="wrapper">
+                                    <ul className="sessions">
+                                        <li>
+                                            <div className="time">2007年</div>
+                                            <p>静岡県に生まれる</p>
+                                        </li>
+                                        <li>
+                                            <div className="time">2011年ごろ</div>
+                                            <p>パソコンをもらう</p>
+                                            <small>ちなみに当時はMr.PCという本についてたCDの中に入っていたフリーソフトで遊んでました。当時ローマ字入力なんてできないのでかな入力でした。</small>
+                                        </li>
+                                        <li>
+                                            <div className="time">2013年</div>
+                                            <p>小学校入学</p>
+                                        </li>
+                                        <li>
+                                            <div className="time">2015年</div>
+                                            <p>プログラミングロボット教室へ通い始める</p>
+                                            <small>Javaが学べると言われたので入ったのですが、方針変更等でやれたのはPythonだったんですけどね。このことは次にも影響します。</small>
+                                        </li>
+                                        <li>
+                                            <div className="time">2019年</div>
+                                            <p>WRO2019 International Finalに出場 <a href="https://www.wroj.org/"><button className="btn-primary btn-xs">WRO Japan公式サイト</button></a></p>
+                                            <small>静岡県予選では<strong>１チーム中</strong>１位、全国大会では３位を収めることができ、世界大会に出ることができました。</small>
+                                        </li>
+                                        <li>
+                                            <div className="time">2020年</div>
+                                            <p>中学校入学</p>
+                                            <small>最初からコロナ禍ですよ。小６の社会の最後なんてテスト終わった人から教科書を自分で読んでとか言うゴリ押しになってました。<br /><strong>ちなみに私はテストが終わらなかったので読んでません。</strong></small>
+                                        </li>
+                                        <li>
+                                            <div className="time">2021年</div>
+                                            <p>Realtime-clockを始めとするJavaScriptを使ったソフトの制作</p>
+                                            <small>
+                                                小5ぐらいからHTMLとCSSはかけたのですが、JavaScriptをいろいろ書くようになったのはこの年が最初です。<br />
+                                                作ったものは<a href="https://github.com/nikachu2012" target={"_blank"} className="underline">GitHub</a>で公開しています。
+                                            </small>
+                                        </li>
+                                        <li>
+                                            <div className="time">2022年11月</div>
+                                            <p>ジュニアプロコンin静岡にて最優秀賞受賞</p>
+                                            <small>ビジュアルプログラミング言語からテキスト系の言語にステップアップしたい人向けの言語である<a className="underline" href="https://emojicode-ide.nikachu.net/" target={"_blank"}>EmojiCode</a>を制作しました。</small>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
