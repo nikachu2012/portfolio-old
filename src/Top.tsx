@@ -24,7 +24,21 @@ function Top() {
               </ul>
             </div>
           </div>
-          Content
+
+          <div className="hero min-h-[calc(100vh_-_4rem)] bg-base-200">
+            <div className="hero-content text-center">
+              <div className="max-w-md">
+                <div className='flex w-100 justify-center mb-[10px]'>
+                  <img src={img_nikachu} alt="nikachu" className='w-24 rounded-full' />
+                </div>
+
+                <h1 className="text-5xl font-bold">Hello there👋</h1>
+                <h2 className='text-2xl font-bold'>My name is <a className="underline" href=''>nikachu</a>.</h2>
+                <p className="py-6">WebApp Creator</p>
+              </div>
+            </div>
+          </div>
+
         </div>
         <div className="drawer-side">
           <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
