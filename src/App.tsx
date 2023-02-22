@@ -3,6 +3,7 @@ import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import Top from "./Top";
 
 import Profile from './Profile';
+import Skill from './Skill';
 function App() {
   return (
     <>
@@ -10,6 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Top />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/skill" element={<Skill />} />
         </Routes>
       </BrowserRouter>
     </>
