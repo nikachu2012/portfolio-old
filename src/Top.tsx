@@ -1,9 +1,6 @@
-import React from 'react'
 import { useEffect } from 'react'
 import MenuBar from './components/MenuBar'
 import img_nikachu from './assets/nikachu.png'
-
-import './index.css'
 import { Link } from 'react-router-dom'
 
 function Top() {
