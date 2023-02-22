@@ -1,6 +1,6 @@
 import React from 'react'
-import MenuBar from './MenuBar'
 import { useEffect } from 'react'
+import MenuBar from './components/MenuBar'
 import img_nikachu from './assets/nikachu.png'
 
 import './index.css'
