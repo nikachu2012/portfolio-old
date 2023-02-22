@@ -1,11 +1,17 @@
 import React from 'react'
 import MenuBar from './MenuBar'
+import { useEffect } from 'react'
 import img_nikachu from './assets/nikachu.png'
 
 import './index.css'
 import { Link } from 'react-router-dom'
 
 function Top() {
+
+  useEffect(() => {
+    document.title = `Nikachu's Portfolio`;
+  });
+
   return (
     <>
       <div className="drawer">
