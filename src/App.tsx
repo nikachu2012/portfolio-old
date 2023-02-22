@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import Top from "./Top";
 
+import './index.css'
 import Profile from './Profile';
 import Skill from './Skill';
 import Timeline from './Timeline';
