@@ -7,6 +7,7 @@ import Profile from './Profile';
 import Skill from './Skill';
 import Timeline from './Timeline';
 import Works from './Works';
+import Social from './Social';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/skill" element={<Skill />} />
           <Route path="/timeline" element={<Timeline />} />
           <Route path='/works' element={<Works />} />
+          <Route path='/social' element={<Social />} />
         </Routes>
       </BrowserRouter>
     </>
