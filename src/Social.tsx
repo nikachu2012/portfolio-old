@@ -35,8 +35,15 @@ function Social() {
                         </div>
                     </div>
 
-                    <div className="w-full h-[calc(100vh_-_64px)] flex justify-center items-center">
-                        <h2 className="text-2xl font-bold">SNSはこちら</h2>
+                    <div className="w-full h-[calc(100vh_-_64px)] flex justify-center items-center flex-col">
+                        <h2 className="text-2xl font-bold">nikachuのSNS</h2>
+                        <div className="flex flex-col items-center [&>*]:my-[5px] md:items-normal md:flex-row md:mt-[10px] md:[&>*]:mx-[5px]">
+                            <a href="https://twitter.com/nikachu2012" target={"_blank"}><button className="btn btn-primary">Twitter</button></a>
+                            <a href="https://github.com/nikachu2012" target={"_blank"}><button className="btn btn-primary">GitHub</button></a>
+                            <a href="https://www.instagram.com/nikachu2012/" target={"_blank"}><button className="btn btn-primary">Instagram</button></a>
+                            <a href="https://www.youtube.com/@nikachu2012" target={"_blank"}><button className="btn btn-primary">YouTube</button></a>
+
+                        </div>
                     </div>
 
 
