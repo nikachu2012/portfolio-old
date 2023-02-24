@@ -8,7 +8,6 @@ const MenuBar = () => {
             <li><Link to={`/skill`}>🎯Skill</Link></li>
             <li><Link to={`/timeline`}>📅Timeline</Link></li>
             <li><Link to={`/works`}>👨‍💻Works</Link></li>
-            <li><Link to={`/gadget`}>💻Gadget</Link></li>
             <li><Link to={`/social`}>🌐Social</Link></li>
         </>
     )
