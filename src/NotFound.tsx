@@ -1,14 +1,13 @@
-import { useEffect } from "react";
-
+import { useEffect } from 'react'
 import MenuBar from './components/MenuBar'
 import img_nikachu from './assets/nikachu.webp'
 import img_nikachu_noback from './assets/nikachu_noback.webp'
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
-function Social() {
+function NotFound() {
 
     useEffect(() => {
-        document.title = `🌐Social - Nikachu's portfolio`;
+        document.title = `Nikachu's portfolio`;
     });
 
     return (
@@ -35,18 +34,15 @@ function Social() {
                         </div>
                     </div>
 
-                    <div className="w-full h-[calc(100vh_-_64px)] flex justify-center items-center flex-col">
-                        <h2 className="text-2xl font-bold">nikachuのSNS</h2>
-                        <div className="flex flex-col items-center [&>*]:my-[5px] md:items-normal md:flex-row md:mt-[10px] md:[&>*]:mx-[5px]">
-                            <a href="https://twitter.com/nikachu2012" target={"_blank"}><button className="btn btn-primary">Twitter</button></a>
-                            <a href="https://github.com/nikachu2012" target={"_blank"}><button className="btn btn-primary">GitHub</button></a>
-                            <a href="https://www.instagram.com/nikachu2012/" target={"_blank"}><button className="btn btn-primary">Instagram</button></a>
-                            <a href="https://www.youtube.com/@nikachu2012" target={"_blank"}><button className="btn btn-primary">YouTube</button></a>
-
+                    <div className="hero min-h-[calc(100vh_-_4rem)] bg-base-200">
+                        <div className="hero-content text-center">
+                            <div className="max-w-md">
+                                <h1 className="text-5xl font-bold">404 Not found.</h1>
+                                <p className="py-6">リクエストされたページが存在しません。</p>
+                                <Link to={`/`}><button className="btn btn-primary">Get Started</button></Link>
+                            </div>
                         </div>
                     </div>
-
-
 
                 </div>
                 <div className="drawer-side">
@@ -60,4 +56,4 @@ function Social() {
     )
 }
 
-export default Social
+export default NotFound
