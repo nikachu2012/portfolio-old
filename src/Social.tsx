@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function Social() {
 
     useEffect(() => {
-        document.title = `🎯Skill - Nikachu's portfolio`;
+        document.title = `🌐Social - Nikachu's portfolio`;
     });
 
     return (
