@@ -12,6 +12,7 @@ import emojicode from './assets/works/emojicode.webp'
 import sc1 from './assets/works/sc1.webp'
 import sc2 from './assets/works/sc2.webp'
 import portfolio from './assets/works/portfolio.webp'
+import kosen_syllabus_kai from "./assets/works/kosen_syllabus_kai.webp"
 
 function Works() {
 
@@ -59,6 +60,21 @@ function Works() {
                                 <div className="card-actions ">
                                     <a href="https://emojicode-ide.nikachu.net/" target="_blank"><button className="btn btn-sm btn-primary">使ってみる</button></a>
                                     <a href="https://github.com/nikachu2012/EmojiCode-IDE" target="_blank"><button className="btn btn-sm btn-primary">ソースコード</button></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="card w-96 bg-base-100 shadow-xl border border-[hsl(var(--b3))] mt-[15px] mx-[5px]">
+                            <figure className="px-10 pt-10">
+                                <img src={kosen_syllabus_kai} className="rounded-xl" />
+                            </figure>
+                            <div className="card-body items-center text-left p-[20px]">
+                                <h2 className="card-title">高専シラバス改</h2>
+                                <p>高専の公式シラバスがスマホなどで絶望的に見づらかったので制作しました。<br />利用には<a className="link" target="_blank" href="https://github.com/nikachu2012/kosen-syllabus-parser/">kosen-syllabus-parser</a>でデータの生成が必要です。</p>
+                                <div className="card-actions ">
+                                    <a href="https://syllabus.nikachu.net/" target="_blank"><button className="btn btn-sm btn-primary">使ってみる</button></a>
+                                    <a href="https://github.com/nikachu2012/kosen-syllabus-kai" target="_blank"><button className="btn btn-sm btn-primary">ソースコード</button></a>
+                                    <a href="https://zenn.dev/nikachu/articles/54f31c83e976c9" target="_blank"><button className="btn btn-sm btn-primary">Zennで見る</button></a>
                                 </div>
                             </div>
                         </div>
