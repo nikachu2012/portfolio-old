@@ -39,7 +39,7 @@ function NotFound() {
                             <div className="max-w-md">
                                 <h1 className="text-5xl font-bold">404 Not found.</h1>
                                 <p className="py-6">リクエストされたページが存在しません。</p>
-                                <Link to={`/`}><button className="btn btn-primary">Get Started</button></Link>
+                                <Link to={`/`}><button className="btn btn-primary">トップページに戻る</button></Link>
                             </div>
                         </div>
                     </div>
