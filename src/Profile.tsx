@@ -51,7 +51,7 @@ function Profile() {
                                 <tr>
                                     <td>名前</td>
                                     <td>
-                                        ニカチュウ<br />
+                                        ニカチュウ(@nikachu2012)<br />
                                         <a href="https://github.com/nikachu2012" target={"_blank"}>
                                             <img
                                                 src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nikachu2012&theme=dracula"
@@ -84,17 +84,18 @@ function Profile() {
                                 </tr>
                                 <tr>
                                     <td>書ける言語</td>
-                                    <td>HTML, CSS, Javascript</td>
+                                    <td>HTML, CSS, Javascript, Python</td>
                                 </tr>
                                 <tr>
                                     <td>好きなゲーム</td>
-                                    <td>Minecraft, Grand Theft Auto V</td>
+                                    <td>VALORANT, Grand Theft Auto V, Genshin Impact</td>
                                 </tr>
                                 <tr>
                                     <td>自己紹介文</td>
                                     <td>
-                                        ニカチュウと申します！よろしくお願いします！普段はWeb系の言語を色々いじってます。<br />
-                                        JavaScriptは結構できます。PHPやPythonなどの言語も触ってみたいです。
+                                        ニカチュウと申します！よろしくお願いします！<br />
+                                        プログラミングを用いてしょうもないものや自分が改善したいと思ったものを制作しています。<br />
+                                        パソコンやガジェット関連、プログラミングなどに興味があります。
                                     </td>
                                 </tr>
                                 <tr>
