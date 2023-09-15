@@ -79,8 +79,8 @@ function Skill() {
                                                     <input type="radio" className="mask mask-star-2 bg-green-500" disabled />
                                                     <input type="radio" className="mask mask-star-2 bg-green-500" disabled />
                                                     <input type="radio" className="mask mask-star-2 bg-green-500" disabled />
-                                                    <input type="radio" className="mask mask-star-2 bg-green-500" disabled checked />
                                                     <input type="radio" className="mask mask-star-2 bg-green-500" disabled />
+                                                    <input type="radio" className="mask mask-star-2 bg-green-500" disabled checked />
                                                 </div>
                                             </td>
                                         </tr>
@@ -89,16 +89,16 @@ function Skill() {
                                             <td>
                                                 <div className="rating">
                                                     <input type="radio" className="mask mask-star-2 bg-green-500" disabled />
+                                                    <input type="radio" className="mask mask-star-2 bg-green-500" disabled />
+                                                    <input type="radio" className="mask mask-star-2 bg-green-500" disabled />
                                                     <input type="radio" className="mask mask-star-2 bg-green-500" disabled checked />
-                                                    <input type="radio" className="mask mask-star-2 bg-green-500" disabled />
-                                                    <input type="radio" className="mask mask-star-2 bg-green-500" disabled />
                                                     <input type="radio" className="mask mask-star-2 bg-green-500" disabled />
                                                 </div>
                                             </td>
                                         </tr>
-                                        
+
                                         <tr>
-                                            <th>Swift</th>
+                                            <th>C++</th>
                                             <td>
                                                 <div className="rating">
                                                     <input type="radio" className="mask mask-star-2 bg-green-500" disabled />
