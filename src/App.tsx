@@ -21,7 +21,7 @@ function App() {
           <Route path="/timeline" element={<Timeline />} />
           <Route path='/works' element={<Works />} />
           <Route path='/social' element={<Social />} />
-          <Route element={<NotFound/>} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </>
