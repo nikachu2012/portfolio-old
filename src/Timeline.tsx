@@ -83,6 +83,14 @@ function Timeline() {
                                             <p>ジュニアプロコンin静岡にて最優秀賞受賞</p>
                                             <small>ビジュアルプログラミング言語からテキスト系の言語にステップアップしたい人向けの言語である<a className="underline" href="https://emojicode-ide.nikachu.net/" target={"_blank"}>EmojiCode</a>を制作しました。</small>
                                         </li>
+                                        <li>
+                                            <div className="time">2023年</div>
+                                            <p>高校入学</p>
+                                            <small>
+                                                高校というか高専です。高等教育機関なので色々なところに金が使われているし、学生の好きなようにしやすい環境がそろっていると思います。<br />
+                                                技術系が好きな中学生には天国です。まあ彼女はできないと思ったほうがいいかもしれないけど。
+                                            </small>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
