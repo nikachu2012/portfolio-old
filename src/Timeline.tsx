@@ -58,7 +58,7 @@ function Timeline() {
                                         <li>
                                             <div className="time">2015年</div>
                                             <p>プログラミングロボット教室へ通い始める</p>
-                                            <small>Javaが学べると言われたので入ったのですが、方針変更等でやれたのはPythonだったんですけどね。このことは次にも影響します。</small>
+                                            <small>まずはビジュアルプログラミング言語から始まり、最終的にJavaが学べると言われたので入ったと思いますが、方針変更等でやれたのはPythonでした。</small>
                                         </li>
                                         <li>
                                             <div className="time">2019年</div>
