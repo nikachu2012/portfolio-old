@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 
 import MenuBar from './components/MenuBar'
-import img_nikachu from './assets/nikachu.webp'
 import img_nikachu_noback from './assets/nikachu_noback.webp'
 import { Link } from "react-router-dom";
 
