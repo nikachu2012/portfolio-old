@@ -62,7 +62,7 @@ function Timeline() {
                                         </li>
                                         <li>
                                             <div className="time">2019年</div>
-                                            <p>WRO2019 International Finalに出場 <a href="https://www.wroj.org/"><button className="btn-primary btn-xs">WRO Japan公式サイト</button></a></p>
+                                            <p>WRO2019 International Finalに出場 <a href="https://www.wroj.org/" target="_blank"><button className="btn-primary btn-xs">WRO Japan公式サイト</button></a></p>
                                             <small>静岡県予選では<strong>１チーム中</strong>１位、全国大会では３位を収めることができ、世界大会に出ることができました。</small>
                                         </li>
                                         <li>
