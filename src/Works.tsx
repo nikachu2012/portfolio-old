@@ -13,6 +13,10 @@ import sc1 from './assets/works/sc1.webp'
 import sc2 from './assets/works/sc2.webp'
 import portfolio from './assets/works/portfolio.webp'
 import kosen_syllabus_kai from "./assets/works/kosen_syllabus_kai.webp"
+import tanka_database from "./assets/works/tanka-database.webp"
+import line_de_healthcare from "./assets/works/line_de_healthcare.webp"
+import note_nikachu_net from "./assets/works/note.nikachu.net.webp"
+import handbook_nitnc from "./assets/works/handbook.numazu-ct.jp.webp"
 
 function Works() {
 
@@ -49,6 +53,60 @@ function Works() {
                     </div>
 
                     <div className="w-full flex justify-center content-center flex-wrap">
+
+                        <div className="card w-96 bg-base-100 shadow-xl border border-[hsl(var(--b3))] mt-[15px] mx-[5px]">
+                            <figure className="px-10 pt-10">
+                                <img src={handbook_nitnc} className="rounded-xl" />
+                            </figure>
+                            <div className="card-body items-center text-left p-[20px]">
+                                <h2 className="card-title">沼津高専学生便覧 on Web</h2>
+                                <p>沼津高専の校則等が載っている学生便覧を、Web上で見れるようにし、Algoliaを用いた全文検索機能を付けたものです。<br />学内向けとして制作しました。</p>
+                            </div>
+                        </div>
+
+                        <div className="card w-96 bg-base-100 shadow-xl border border-[hsl(var(--b3))] mt-[15px] mx-[5px]">
+                            <figure className="px-10 pt-10">
+                                <img src={note_nikachu_net} className="rounded-xl" />
+                            </figure>
+                            <div className="card-body items-center text-left p-[20px]">
+                                <h2 className="card-title">note.nikachu.net</h2>
+                                <p>技術的なこと主に投稿するブログのようなサイトです。静的サイトジェネレータであるHugoを利用しています。</p>
+                                <div className="card-actions ">
+                                    <a href="https://note.nikachu.net/" target="_blank"><button className="btn btn-sm btn-primary">見てみる</button></a>
+                                    <a href="https://github.com/nikachu2012/note.nikachu.net" target="_blank"><button className="btn btn-sm btn-primary">ソースコード</button></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="card w-96 bg-base-100 shadow-xl border border-[hsl(var(--b3))] mt-[15px] mx-[5px]">
+                            <figure className="px-10 pt-10">
+                                <img src={tanka_database} className="rounded-xl" />
+                            </figure>
+                            <div className="card-body items-center text-left p-[20px]">
+                                <h2 className="card-title">全短歌データベース</h2>
+                                <p>すべての短歌を1つのデータベースにまとめ、検索できるサイトです。話題となった全短歌データベースと同じようなものです。</p>
+                                <div className="card-actions ">
+                                    <a href="https://tankadb.nikachu.net/" target="_blank"><button className="btn btn-sm btn-primary">使ってみる</button></a>
+                                    <a href="https://github.com/nikachu2012/tanka-database" target="_blank"><button className="btn btn-sm btn-primary">ソースコード</button></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="card w-96 bg-base-100 shadow-xl border border-[hsl(var(--b3))] mt-[15px] mx-[5px]">
+                            <figure className="px-10 pt-10">
+                                <img src={line_de_healthcare} className="rounded-xl" />
+                            </figure>
+                            <div className="card-body items-center text-left p-[20px]">
+                                <h2 className="card-title">LINEでヘルスケア</h2>
+                                <p>
+                                    LINE, LIFF, OpenPoseを用いて、スマホカメラから姿勢検知を行い、ヨガ姿勢の自動採点を行うアプリです。<br />
+                                    沼津高専チャレンジコンテストにて優秀賞をいただきました。
+                                </p>
+                                <div className="card-actions ">
+                                    <a href="https://tankadb.nikachu.net/" target="_blank"><button className="btn btn-sm btn-primary">関連サイト</button></a>
+                                </div>
+                            </div>
+                        </div>
 
                         <div className="card w-96 bg-base-100 shadow-xl border border-[hsl(var(--b3))] mt-[15px] mx-[5px]">
                             <figure className="px-10 pt-10">
