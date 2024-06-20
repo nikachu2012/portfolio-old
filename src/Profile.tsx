@@ -76,7 +76,7 @@ function Profile() {
                                 </tr>
                                 <tr>
                                     <td>好きな食べ物&amp;飲み物</td>
-                                    <td>🍔ハンバーガー, 🍟ポテト, 🫖ミルクティー, モンスター</td>
+                                    <td>午後の紅茶ミルクティー, MONSTER</td>
                                 </tr>
                                 <tr>
                                     <td>趣味</td>
@@ -84,17 +84,17 @@ function Profile() {
                                 </tr>
                                 <tr>
                                     <td>書ける言語</td>
-                                    <td>HTML, CSS, Javascript, Python</td>
+                                    <td>HTML, CSS, JavaScript, TypeScript, Python, C++, BASIC, Z80 Assembly</td>
                                 </tr>
                                 <tr>
                                     <td>好きなゲーム</td>
-                                    <td>VALORANT, Grand Theft Auto V, Genshin Impact</td>
+                                    <td>Grand Theft Auto V, VALORANT, Genshin Impact</td>
                                 </tr>
                                 <tr>
                                     <td>自己紹介文</td>
                                     <td>
                                         ニカチュウと申します！よろしくお願いします！<br />
-                                        プログラミングを用いてしょうもないものや自分が改善したいと思ったものを制作しています。<br />
+                                        プログラミングを用いて個人的に改善したいと思ったものを制作しています。<br />
                                         パソコンやガジェット関連、プログラミングなどに興味があります。
                                     </td>
                                 </tr>
