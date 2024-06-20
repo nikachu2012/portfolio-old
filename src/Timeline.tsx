@@ -91,6 +91,30 @@ function Timeline() {
                                                 技術系が好きな中学生には天国です。まあ彼女はできないと思ったほうがいいかもしれないけど。
                                             </small>
                                         </li>
+                                        <li>
+                                            <div className="time">2023年6月～</div>
+                                            <p>KeTCindyを用いた数学教材の開発 <a href="https://user.numazu-ct.ac.jp/~m-suzuki/ketcindy/index.html" target="_blank" rel="noopener noreferrer"><button className="btn-primary btn-xs">関連サイト</button></a></p>
+                                            <small>
+                                                利用者のアクションなどで動く、視覚的にわかりやすい数学教材の開発を行いました。<br />
+                                            </small>
+                                        </li>
+                                        <li>
+                                            <div className="time">2023年11月</div>
+                                            <p>"沼津高専チャレンジコンテスト"にて優秀賞を獲得 <a href="https://www.numazu-ct.ac.jp/news/6792/" target="_blank"><button className="btn-primary btn-xs">関連記事</button></a></p>
+                                            <small>
+                                                LINEとLINE Front-end Framework、OpenPoseを用い、ヨガの自動採点や、健康管理を行うLINEでヘルスケアというアプリを開発しました。<br />
+                                            </small>
+                                        </li>
+
+                                        <li>
+                                            <div className="time">2024年3月</div>
+                                            <p>静岡大成中学校・高等学校にてロボット関連の講座を開催</p>
+                                            <small>
+                                                高専の友人と共に、ロボコンなどの大会で勝つにはどうすればよいかについて講義を行いました。<br />
+                                                また、その後には実際にロボットを作り走らせ、競技会も行いました。
+                                            </small>
+                                        </li>
+
                                     </ul>
                                 </div>
                             </div>
