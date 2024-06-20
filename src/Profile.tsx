@@ -72,7 +72,7 @@ function Profile() {
                                 </tr>
                                 <tr>
                                     <td>誕生日</td>
-                                    <td>2007年09月18日</td>
+                                    <td>2007-09-18 (ISO8601拡張表記)</td>
                                 </tr>
                                 <tr>
                                     <td>好きな食べ物&amp;飲み物</td>
