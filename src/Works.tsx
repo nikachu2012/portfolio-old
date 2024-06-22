@@ -70,7 +70,7 @@ function Works() {
                             </figure>
                             <div className="card-body items-center text-left p-[20px]">
                                 <h2 className="card-title">note.nikachu.net</h2>
-                                <p>技術的なこと主に投稿するブログのようなサイトです。静的サイトジェネレータであるHugoを利用しています。</p>
+                                <p>技術的なことを主に投稿するブログのようなサイトです。静的サイトジェネレータであるHugoを利用しています。</p>
                                 <div className="card-actions ">
                                     <a href="https://note.nikachu.net/" target="_blank"><button className="btn btn-sm btn-primary">見てみる</button></a>
                                     <a href="https://github.com/nikachu2012/note.nikachu.net" target="_blank"><button className="btn btn-sm btn-primary">ソースコード</button></a>
@@ -103,7 +103,7 @@ function Works() {
                                     沼津高専チャレンジコンテストにて優秀賞をいただきました。
                                 </p>
                                 <div className="card-actions ">
-                                    <a href="https://tankadb.nikachu.net/" target="_blank"><button className="btn btn-sm btn-primary">関連サイト</button></a>
+                                    <a href="https://www.numazu-ct.ac.jp/news/6066/" target="_blank"><button className="btn btn-sm btn-primary">関連サイト</button></a>
                                 </div>
                             </div>
                         </div>
